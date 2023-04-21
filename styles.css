@@ -89,7 +89,7 @@ img {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding: 10px 15px 15px; /* Add 20px padding-top, 15px padding-left and right, 40px padding-bottom */
+    padding: 10px 15px 60px; /* Add 20px padding-top, 15px padding-left and right, 40px padding-bottom */
     box-sizing: border-box;
     width: calc(60% + 30px); /* Add 15px padding to the left and right */
     margin-left: auto;
@@ -98,13 +98,12 @@ img {
 
 .carousel-indicators {
     position: absolute;
-    bottom: 15px;
+    bottom: 25px; /* Increase the bottom position to move the dots up */
     left: 50%;
     transform: translateX(-50%);
     display: flex;
     justify-content: center;
 }
-
 
 .dot {
     background-color: rgba(0, 0, 0, 0.3);
