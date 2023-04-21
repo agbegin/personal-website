@@ -157,7 +157,7 @@ img {
     transform: translateX(-50%);
     display: flex;
     justify-content: center;
-    height: 20px; /* Set the height to an appropriate value */
+    height: 12px; /* Set the height to an appropriate value */
     margin-top: 20px;
 }
 
