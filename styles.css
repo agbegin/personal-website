@@ -146,12 +146,13 @@ img {
 .dot {
     height: 8px;
     width: 8px;
-    margin: auto; /* Add some horizontal spacing */
+    margin: 0px 5px; /* Add some horizontal spacing */
     background-color: #555;
     border-radius: 50%;
-    border-width: 0px:
     display: inline-block;
 }
+
+
 
 .dot.active {
     background-color: #D3D3D3;
