@@ -30,7 +30,10 @@ body {
     min-width: 100%;
     text-align: center;
     position: relative;
+    display: flex; /* Add this */
+    flex-direction: column; /* Add this */
 }
+
 
 img {
     width: 60%;
@@ -40,17 +43,18 @@ img {
 .caption {
     position: relative;
     bottom: unset;
-    left: 50%;
-    transform: translateX(-50%);
+    left: unset; /* Remove the left positioning */
+    transform: unset; /* Remove the transform property */
     background-color: transparent;
     color: black;
     font-family: 'IBM Plex Sans', sans-serif;
     padding: 5px;
-    font-size: 16px; /* Increase the text size by 4 points (from 14px to 18px) */
-    max-width: 80%;
+    font-size: 18px;
+    max-width: 100%; /* Set the max-width to 100% */
     text-align: center;
-    margin-top: -20px; /* Move the caption text closer to the photos by 40px */
-    font-weight: normal; /* Make the caption text bold */
+    margin-top: -40px;
+    font-weight: bold;
+    width: 100%; /* Add this line */
 }
 
 
