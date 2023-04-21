@@ -123,7 +123,6 @@ img {
     margin-right: auto;
 }
 
-
 .carousel-indicators {
     position: absolute;
     bottom: 15px;
@@ -135,7 +134,6 @@ img {
     padding: 0 20%; /* Add padding to the left and right */
     margin: 0;
 }
-
 
 .dot-container {
   display: flex;
