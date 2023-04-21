@@ -89,7 +89,7 @@ img {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding: 10px 10px 10px; /* Add 20px padding-top, 15px padding-left and right, 40px padding-bottom */
+    padding: 10px 15px 15px; /* Add 20px padding-top, 15px padding-left and right, 40px padding-bottom */
     box-sizing: border-box;
     width: calc(60% + 30px); /* Add 15px padding to the left and right */
     margin-left: auto;
