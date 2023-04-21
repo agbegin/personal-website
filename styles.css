@@ -141,17 +141,17 @@ img {
   transform: translateX(-50%);
   height: 30px;
   width: 60%;
-  display: flex; /* Add this line */
-  justify-content: center; /* Add this line */
-  align-items: center; /* Add this line */
-  overflow-x: auto; /* Add this line */
-  overflow-y: hidden; /* Add this line */
-  -webkit-overflow-scrolling: touch; /* Add this line */
-  scrollbar-width: none; /* Add this line */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow-x: auto;
+  overflow-y: hidden;
+  -webkit-overflow-scrolling: touch;
+  scrollbar-width: none;
 }
 
 .dot-wrapper::-webkit-scrollbar {
-  display: none; /* Add this line */
+  display: none;
 }
 
 .dot-container {
@@ -159,7 +159,9 @@ img {
   justify-content: center;
   align-items: center;
   height: 100%;
+  width: max-content; /* Add this line */
 }
+
 
 
 
