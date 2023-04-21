@@ -124,11 +124,11 @@ img {
 }
 
 .dots-container {
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 0 20%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 0 auto;
+      padding: 0 5%;
   }
 
 .carousel-indicators {
