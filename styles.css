@@ -145,7 +145,7 @@ img {
 
 .dots-container {
     height: 100%;
-    width: 70%;
+    width: 120px;
     display: flex;
     justify-content: center;
     align-items: center;
