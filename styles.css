@@ -133,9 +133,6 @@ img {
 .carousel-indicators {
     position: absolute;
     bottom: 15px; /* Increase the bottom position to move the dots up */
-    left: 50%;
-    transform: translateX(-50%);
-    display: flex;
     justify-content: center;
     height: 12px; /* Set the height to an appropriate value */
     margin: 10px 10px; /* add margin */
