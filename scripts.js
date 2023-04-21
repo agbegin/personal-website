@@ -18,6 +18,8 @@ document.addEventListener("DOMContentLoaded", function() {
         goToSlide(currentSlide + 1);
     }
 
+    updateDots(currentSlide); // Add this line
+    
     window.prevSlide = prevSlide;
     window.nextSlide = nextSlide;
 });
