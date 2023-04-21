@@ -135,12 +135,39 @@ img {
     margin: 0;
 }
 
+.carousel-indicators {
+    position: absolute;
+    bottom: 15px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    justify-content: center;
+    line-height: 0; /* Add this to make the dots circular */
+    padding: 0 20%; /* Add padding to the left and right */
+    margin: 0;
+}
+
 .dot-container {
   display: flex;
   justify-content: center;
   align-items: center;
   height: 30px; /* Set a fixed height */
   margin: 0 20% 0; /* Add 20% padding to the left and right */
+}
+
+.dot {
+  background-color: #808080;
+  border: none;
+  border-radius: 50%;
+  width: 12px;
+  height: 12px;
+  margin: 0 5px;
+  line-height: 30px; /* Set the line-height equal to the height of the container */
+}
+
+.dot.active {
+  background-color: #808080;
+  box-shadow: 0 0 0 2px white;
 }
 
 .dot {
