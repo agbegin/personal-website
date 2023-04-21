@@ -92,7 +92,6 @@ img {
     padding-top: 15px; /* Add this to add padding to the top */
     padding-bottom: 15px; /* Change this from 30px to 15px */
     box-sizing: border-box; /* Add this to include padding and border in the width calculation */
-    width: calc(100% + 15px); /* Add 15px to the width */
     margin-left: auto; /* Center the container horizontally */
     margin-right: auto; /* Center the container horizontally */
 }
