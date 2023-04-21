@@ -11,8 +11,21 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
+    display: flex;
+    flex-direction: column; /* Change this to 'column' */
 }
 
+.container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logo {
+    margin-bottom: 20px; /* Add some space between the logo and the carousel */
+    max-width: 150px; /* Adjust the logo size if needed */
+}
 
 .carousel {
     position: relative;
