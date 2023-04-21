@@ -97,10 +97,14 @@ img {
 }
 
 .carousel-indicators {
+    position: absolute;
+    bottom: 15px;
+    left: 50%;
+    transform: translateX(-50%);
     display: flex;
     justify-content: center;
-    margin-top: 10px;
 }
+
 
 .dot {
     background-color: rgba(0, 0, 0, 0.3);
