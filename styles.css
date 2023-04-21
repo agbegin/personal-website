@@ -37,8 +37,9 @@ body {
 
 
 img {
-    width: 100%;
+    width: 60%; /* Change this from 100% to 60% */
     height: auto;
+    margin: 0 auto; /* Add this to keep the images horizontally centered */
 }
 
 .caption {
