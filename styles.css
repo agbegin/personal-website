@@ -23,8 +23,8 @@ body {
 }
 
 .logo {
-    margin-bottom: 20px; /* Add some space between the logo and the carousel */
-    max-width: 150px; /* Adjust the logo size if needed */
+    margin-bottom: 40px; /* Add some space between the logo and the carousel */
+    max-width: 90px; /* Adjust the logo size if needed */
 }
 
 .carousel {
