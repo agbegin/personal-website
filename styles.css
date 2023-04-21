@@ -162,10 +162,24 @@ img {
   flex-shrink: 0; /* Prevent the dot from shrinking */
 }
 
-
 .dot.active {
   background-color: #808080;
   box-shadow: 0 0 0 2px white;
 }
+
+@media (max-width: 480px) {
+  .dot-container {
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    overflow-y: hidden;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none; /* For Firefox */
+  }
+
+  .dot-container::-webkit-scrollbar {
+    display: none; /* For Chrome, Safari, and Opera */
+  }
+}
+
 
 
