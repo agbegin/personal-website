@@ -139,7 +139,8 @@ img {
   bottom: 10px;
   left: 50%;
   transform: translateX(-50%);
-  height: 30px; /* Revert this line */
+  height: 30px;
+  width: 100%; /* Change this line */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -159,7 +160,9 @@ img {
   align-items: center;
   height: 100%;
   width: max-content;
+  padding: 0 10px; /* Add this line */
 }
+
 
 
 
