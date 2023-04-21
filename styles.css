@@ -98,7 +98,7 @@ img {
 
 .carousel-indicators {
     position: absolute;
-    bottom: 25px; /* Increase the bottom position to move the dots up */
+    bottom: 15px; /* Increase the bottom position to move the dots up */
     left: 50%;
     transform: translateX(-50%);
     display: flex;
