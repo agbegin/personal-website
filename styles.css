@@ -73,12 +73,12 @@ img {
 }
 
 .carousel-control.prev {
-    left: 0px;
+    left: -20px;
     transform: translateY(-50%);
 }
 
 .carousel-control.next {
-    right: 0px;
+    right: -20px;
     transform: translateY(-50%);
 }
 
