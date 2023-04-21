@@ -18,7 +18,7 @@ body {
 @media (max-width: 600px) {
   .carousel-indicators {
     height: calc(100vw - 30px);
-    margin-bottom: 10px;
+    margin-top: 20px;
   }
   .dot {
     height: 10px;
