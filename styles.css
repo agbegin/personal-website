@@ -139,8 +139,7 @@ img {
   bottom: 10px;
   left: 50%;
   transform: translateX(-50%);
-  height: auto;
-  width: 60%;
+  height: 30px; /* Revert this line */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -159,7 +158,7 @@ img {
   justify-content: center;
   align-items: center;
   height: 100%;
-  width: max-content; /* Add this line */
+  width: max-content;
 }
 
 
