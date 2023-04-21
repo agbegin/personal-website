@@ -146,7 +146,7 @@ img {
 .dot {
     height: 8px;
     width: 8px;
-    margin: 0 5px; /* Add some horizontal spacing */
+    margin: auto; /* Add some horizontal spacing */
     background-color: #555;
     border-radius: 50%;
     border-width: 0px:
