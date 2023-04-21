@@ -8,6 +8,8 @@ document.addEventListener("DOMContentLoaded", function() {
         carouselItems[currentSlide].classList.add("active");
         const carouselInner = document.querySelector(".carousel-inner");
         carouselInner.style.transform = `translateX(-${currentSlide * 100}%)`;
+        
+        updateDots(currentSlide); // Add this line
     }
 
     function prevSlide() {
@@ -18,31 +20,25 @@ document.addEventListener("DOMContentLoaded", function() {
         goToSlide(currentSlide + 1);
     }
 
-    updateDots(currentSlide); // Add this line
-    
+    function createDots() {
+        const carouselIndicators = document.querySelector('.carousel-indicators');
+        carouselItems.forEach((item, index) => {
+            const dot = document.createElement('button');
+            dot.classList.add('dot');
+            if (index === 0) dot.classList.add('active');
+            dot.addEventListener('click', () => goToSlide(index));
+            carouselIndicators.appendChild(dot);
+        });
+    }
+
+    function updateDots(slideIndex) {
+        const dots = document.querySelectorAll('.dot');
+        dots.forEach(dot => dot.classList.remove('active'));
+        dots[slideIndex].classList.add('active');
+    }
+
+    createDots(); // Call createDots() within the event listener
+
     window.prevSlide = prevSlide;
     window.nextSlide = nextSlide;
 });
-
-function createDots() {
-    const carouselIndicators = document.querySelector('.carousel-indicators');
-    carouselItems.forEach((item, index) => {
-        const dot = document.createElement('button');
-        dot.classList.add('dot');
-        if (index === 0) dot.classList.add('active');
-        dot.addEventListener('click', () => goToSlide(index));
-        carouselIndicators.appendChild(dot);
-    });
-}
-
-function updateDots(slideIndex) {
-    const dots = document.querySelectorAll('.dot');
-    dots.forEach(dot => dot.classList.remove('active'));
-    dots[slideIndex].classList.add('active');
-}
-
-document.addEventListener('DOMContentLoaded', function () {
-    createDots();
-    // ...
-});
-
