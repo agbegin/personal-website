@@ -85,4 +85,9 @@ img {
     overflow: hidden; /* Hide the content that goes beyond the border-radius */
     display: flex; /* Make the container a flexbox */
     flex-direction: column; /* Set the direction of the flexbox to column */
+    justify-content: center; /* Center the content vertically */
+    align-items: center; /* Center the content horizontally */
 }
+
+
+
