@@ -17,7 +17,7 @@ body {
 .carousel {
     position: relative;
     width: 90%;
-    max-width: 400px;
+    max-width: 600px;
     overflow: hidden;
 }
 
@@ -37,7 +37,7 @@ body {
 
 
 img {
-    width: 60%;
+    width: 100%;
     height: auto;
 }
 
