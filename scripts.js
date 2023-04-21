@@ -1,3 +1,6 @@
+document.addEventListener("DOMContentLoaded", function() {
+
+
 let currentSlide = 0;
 const carouselItems = document.querySelectorAll(".carousel-item");
 
@@ -15,3 +18,5 @@ function prevSlide() {
 
 function nextSlide() {
     goToSlide(currentSlide + 
+
+              });
