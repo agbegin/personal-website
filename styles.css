@@ -138,11 +138,10 @@ img {
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-wrap: wrap; /* Allow the dots to wrap if there's not enough space */
+  flex-wrap: nowrap; /* Prevent the dots from wrapping */
   height: 30px; /* Set a fixed height */
-  max-width: 60%; /* Set a maximum width */
+  width: min-content; /* Set the width to the minimum content width */
   margin: 0 auto; /* Use auto margins to center the container */
-  padding: 0 10%; /* Add padding to the left and right */
 }
 
 .dot {
@@ -152,7 +151,9 @@ img {
   width: 12px;
   height: 12px;
   margin: 0 5px;
+  flex-shrink: 0; /* Prevent the dot from shrinking */
 }
+
 
 .dot.active {
   background-color: #808080;
