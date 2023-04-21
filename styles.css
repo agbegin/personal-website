@@ -152,8 +152,10 @@ img {
   justify-content: center;
   align-items: center;
   height: 30px; /* Set a fixed height */
-  margin: 0 20% 0; /* Add 20% padding to the left and right */
+  max-width: 60%; /* Set a maximum width */
+  margin: 0 auto; /* Use auto margins to center the container */
 }
+
 
 .dot {
   background-color: #808080;
