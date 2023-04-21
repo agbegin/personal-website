@@ -139,7 +139,7 @@ img {
   bottom: 10px;
   left: 50%;
   transform: translateX(-50%);
-  height: 30px;
+  height: auto;
   width: 60%;
   display: flex;
   justify-content: center;
