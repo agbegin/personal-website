@@ -78,3 +78,11 @@ img {
     right: 10px;
     transform: translateY(-50%);
 }
+
+.photo-caption-container {
+    background-color: rgba(128, 128, 128, 0.5); /* Translucent gray background */
+    border-radius: 15px; /* 15px border radius */
+    overflow: hidden; /* Hide the content that goes beyond the border-radius */
+    display: flex; /* Make the container a flexbox */
+    flex-direction: column; /* Set the direction of the flexbox to column */
+}
