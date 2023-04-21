@@ -30,9 +30,11 @@ body {
     min-width: 100%;
     text-align: center;
     position: relative;
-    display: flex; /* Add this */
-    flex-direction: column; /* Add this */
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center the content horizontally */
 }
+
 
 
 img {
@@ -86,11 +88,11 @@ img {
     display: flex; /* Make the container a flexbox */
     flex-direction: column; /* Set the direction of the flexbox to column */
     justify-content: center; /* Center the content vertically */
-    width: calc(100% + 15px); /* Add 15px to the width */
-    padding-left: 7.5px; /* Add 7.5px padding to the left */
-    padding-right: 7.5px; /* Add 7.5px padding to the right */
+    padding-left: calc(7.5px + 1.5%); /* Add 7.5px padding to the left and additional 1.5% */
+    padding-right: calc(7.5px + 1.5%); /* Add 7.5px padding to the right and additional 1.5% */
     padding-bottom: 30px; /* Add 30px padding to the bottom */
 }
+
 
 
 
