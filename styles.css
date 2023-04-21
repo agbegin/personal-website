@@ -19,7 +19,6 @@ body {
   .carousel-indicators {
     max-height: 10vh;
     margin-top: 20px;
-    line-height: 12px; /* Add this line */
   }
   .dot {
     background-color: #808080;
@@ -161,6 +160,7 @@ img {
   width: 12px;
   height: 12px;
   margin: 0 5px;
+  line-height: 12px; /* Add this line */
 }
 
 .dot.active {
