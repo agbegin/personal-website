@@ -17,6 +17,6 @@ function prevSlide() {
 }
 
 function nextSlide() {
-    goToSlide(currentSlide + 
+    goToSlide(currentSlide +1) 
 
               });
