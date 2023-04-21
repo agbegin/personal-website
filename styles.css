@@ -153,7 +153,7 @@ img {
 }
 
 .dot.active {
-  border: 2px solid #fff;
-  background-color: #4f4f4f;
+  background-color: #282828;
+  box-shadow: 0 0 0 2px white;
 }
 
