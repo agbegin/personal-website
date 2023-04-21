@@ -42,14 +42,15 @@ img {
     bottom: unset;
     left: 50%;
     transform: translateX(-50%);
-    background-color: transparent; /* Remove the gray background */
-    color: black; /* Change the font color to black */
-    font-family: 'IBM Plex Sans', sans-serif; /* Set the font to IBM Plex Sans */
+    background-color: transparent;
+    color: black;
+    font-family: 'IBM Plex Sans', sans-serif;
     padding: 5px;
-    font-size: 14px;
+    font-size: 18px; /* Increase the text size by 4 points (from 14px to 18px) */
     max-width: 80%;
     text-align: center;
-    margin-top: 10px; /* Add space between the image and the caption */
+    margin-top: -40px; /* Move the caption text closer to the photos by 40px */
+    font-weight: bold; /* Make the caption text bold */
 }
 
 
