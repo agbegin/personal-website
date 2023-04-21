@@ -159,7 +159,7 @@ img {
     display: flex;
     justify-content: center;
     height: 12px; /* Set the height to an appropriate value */
-    margin: 20px 30px; /* add margin */
+    margin: 10px 10px; /* add margin */
 }
 
 .dot {
