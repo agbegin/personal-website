@@ -134,15 +134,23 @@ img {
     margin: 0;
 }
 
+.dot-wrapper {
+  position: absolute;
+  bottom: 15px;
+  left: 50%;
+  transform: translateX(-50%);
+  height: 30px;
+  width: 60%;
+  overflow: hidden; /* Prevent the dots from stretching horizontally */
+}
+
 .dot-container {
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-wrap: nowrap; /* Prevent the dots from wrapping */
-  height: 30px; /* Set a fixed height */
-  width: min-content; /* Set the width to the minimum content width */
-  margin: 0 auto; /* Use auto margins to center the container */
+  height: 100%;
 }
+
 
 .dot {
   background-color: #808080;
