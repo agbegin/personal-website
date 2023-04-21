@@ -6,7 +6,13 @@ body {
     height: 100vh;
     margin: 0;
     background-color: #f2f2f2;
+    background-image: url('https://raw.githubusercontent.com/agbegin/personal-website/main/assets/blink-background.png'); /* Replace with your image URL */
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
 }
+
 
 .carousel {
     position: relative;
