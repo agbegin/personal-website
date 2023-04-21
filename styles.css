@@ -15,6 +15,12 @@ body {
     flex-direction: column; /* Change this to 'column' */
 }
 
+.logo-container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
 .container {
     width: 100%;
     display: flex;
@@ -23,8 +29,14 @@ body {
 }
 
 .logo {
-    margin-bottom: 40px; /* Add some space between the logo and the carousel */
-    max-width: 90px; /* Adjust the logo size if needed */
+    margin-bottom: 20px; /* Add some space between the logo and the carousel */
+    max-width: 150px; /* Adjust the logo size if needed */
+}
+
+.carousel-container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
 }
 
 .carousel {
