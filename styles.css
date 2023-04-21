@@ -19,6 +19,7 @@ body {
   .carousel-indicators {
     max-height: 10vh;
     margin-top: 20px;
+    line-height: 12px; /* Add this line */
   }
   .dot {
     background-color: #808080;
