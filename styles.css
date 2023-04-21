@@ -149,6 +149,7 @@ img {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: 0 20%;
   }
 
 .carousel-indicators {
@@ -168,7 +169,6 @@ img {
   border-radius: 50%;
   height: 100%;
   width: 12px;
-  margin: 0 5px;
   line-height: 12px; /* Add this line */
 }
 
