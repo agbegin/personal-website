@@ -27,7 +27,7 @@ body {
 }
 
 .carousel-item {
-    min-width: 100%;
+    min-width: 60%;
     text-align: center;
     position: relative;
     display: flex;
