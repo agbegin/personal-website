@@ -6,13 +6,13 @@ body {
     height: 100vh;
     margin: 0;
     background-color: #f2f2f2;
-    background-image: url('https://raw.githubusercontent.com/agbegin/personal-website/main/assets/blink-background.png'); /* Replace with your image URL */
+    background-image: url('https://raw.githubusercontent.com/agbegin/personal-website/main/assets/blink-background.png');
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
     display: flex;
-    flex-direction: column; /* Change this to 'column' */
+    flex-direction: column;
 }
 
 .logo-container {
@@ -29,8 +29,8 @@ body {
 }
 
 .logo {
-    margin-bottom: 20px; /* Add some space between the logo and the carousel */
-    max-width: 150px; /* Adjust the logo size if needed */
+    margin-bottom: 20px;
+    max-width: 150px;
 }
 
 .carousel-container {
@@ -57,7 +57,7 @@ body {
     position: relative;
     display: flex;
     flex-direction: column;
-    align-items: center; /* Add this to center the content horizontally */
+    align-items: center;
 }
 
 
@@ -66,24 +66,24 @@ img {
     max-height: 80vh;
     height: auto;
     margin: 0 auto;
-    object-fit: contain; /* Add this to maintain aspect ratio */
+    object-fit: contain;
 }
 
 .caption {
     position: relative;
     bottom: unset;
-    left: unset; /* Remove the left positioning */
-    transform: unset; /* Remove the transform property */
+    left: unset;
+    transform: unset;
     background-color: transparent;
     color: black;
     font-family: 'IBM Plex Sans', sans-serif;
     padding: 5px;
     font-size: 18px;
-    max-width: 100%; /* Set the max-width to 100% */
+    max-width: 100%;
     text-align: center;
     margin-top: -10px;
     font-weight: bold;
-    width: 100%; /* Add this line */
+    width: 100%;
 }
 
 
@@ -115,41 +115,37 @@ img {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding: 10px 15px 40px; /* Add 20px padding-top, 15px padding-left and right, 40px padding-bottom */
+    padding: 10px 15px 40px;
     box-sizing: border-box;
-    width: calc(60% + 30px); /* Add 15px padding to the left and right */
-    min-height: 450px; /* Add a minimum height */
+    width: calc(60% + 30px);
+    min-height: 450px;
     margin-left: auto;
     margin-right: auto;
 }
 
-.dots-container {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      padding: 0 20%;
-  }
 
 .carousel-indicators {
-    display: flex;
-    justify-content: center;
     position: absolute;
     bottom: 15px;
-    left: 0;
-    right: 0;
-    padding: 0 20%; 
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    justify-content: center;
+    line-height: 0; /* Add this to make the dots circular */
+    padding: 0 20%; /* Add padding to the left and right */
+    margin: 0;
 }
 
 .dot {
   background-color: #808080;
   border: none;
   border-radius: 50%;
-  height: 100%;
   width: 12px;
-  margin: 0px 5px;
-  line-height: 12px; /* Add this line */
+  height: 12px;
+  margin: 0 5px;
+  line-height: 12
 }
-
+      
 .dot.active {
   background-color: #808080;
   box-shadow: 0 0 0 2px white;
