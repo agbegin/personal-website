@@ -32,17 +32,20 @@ img {
 }
 
 .caption {
-    position: absolute;
-    bottom: 10px;
+    position: relative;
+    bottom: unset;
     left: 50%;
     transform: translateX(-50%);
-    background-color: rgba(0, 0, 0, 0.6);
-    color: white;
+    background-color: transparent; /* Remove the gray background */
+    color: black; /* Change the font color to black */
+    font-family: 'IBM Plex Sans', sans-serif; /* Set the font to IBM Plex Sans */
     padding: 5px;
     font-size: 14px;
     max-width: 80%;
     text-align: center;
+    margin-top: 10px; /* Add space between the image and the caption */
 }
+
 
 .carousel-control {
     position: absolute;
