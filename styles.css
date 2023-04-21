@@ -46,11 +46,11 @@ img {
     color: black;
     font-family: 'IBM Plex Sans', sans-serif;
     padding: 5px;
-    font-size: 18px; /* Increase the text size by 4 points (from 14px to 18px) */
+    font-size: 16px; /* Increase the text size by 4 points (from 14px to 18px) */
     max-width: 80%;
     text-align: center;
-    margin-top: -40px; /* Move the caption text closer to the photos by 40px */
-    font-weight: bold; /* Make the caption text bold */
+    margin-top: -20px; /* Move the caption text closer to the photos by 40px */
+    font-weight: normal; /* Make the caption text bold */
 }
 
 
