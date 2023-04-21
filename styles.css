@@ -149,10 +149,12 @@ img {
     margin: 0 5px; /* Add some horizontal spacing */
     background-color: #555;
     border-radius: 50%;
+    border-width: 0px:
     display: inline-block;
 }
 
 .dot.active {
     background-color: #D3D3D3;
+    border-width: 0px:
 }
 
