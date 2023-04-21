@@ -136,12 +136,22 @@ img {
 
 .dot-wrapper {
   position: absolute;
-  bottom: 5px;
+  bottom: 10px;
   left: 50%;
   transform: translateX(-50%);
   height: 30px;
   width: 60%;
-  overflow: hidden; /* Prevent the dots from stretching horizontally */
+  display: flex; /* Add this line */
+  justify-content: center; /* Add this line */
+  align-items: center; /* Add this line */
+  overflow-x: auto; /* Add this line */
+  overflow-y: hidden; /* Add this line */
+  -webkit-overflow-scrolling: touch; /* Add this line */
+  scrollbar-width: none; /* Add this line */
+}
+
+.dot-wrapper::-webkit-scrollbar {
+  display: none; /* Add this line */
 }
 
 .dot-container {
@@ -150,6 +160,7 @@ img {
   align-items: center;
   height: 100%;
 }
+
 
 
 .dot {
