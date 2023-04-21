@@ -87,11 +87,12 @@ img {
     display: flex; /* Make the container a flexbox */
     flex-direction: column; /* Set the direction of the flexbox to column */
     justify-content: center; /* Center the content vertically */
-    padding-left: 7.5px;
-    padding-right: 7.5px;
+    padding-left: 10px; /* Change this from 7.5px to 10px */
+    padding-right: 10px; /* Change this from 7.5px to 10px */
     padding-top: 15px; /* Add this to add padding to the top */
     padding-bottom: 15px; /* Change this from 30px to 15px */
     box-sizing: border-box; /* Add this to include padding and border in the width calculation */
+    width: calc(60% + 20px); /* Change this from calc(100% + 15px) to calc(60% + 20px) */
     margin-left: auto; /* Center the container horizontally */
     margin-right: auto; /* Center the container horizontally */
 }
