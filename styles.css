@@ -128,7 +128,7 @@ img {
     padding: 10px 15px 40px; /* Add 20px padding-top, 15px padding-left and right, 40px padding-bottom */
     box-sizing: border-box;
     width: calc(60% + 30px); /* Add 15px padding to the left and right */
-    min-height: 600px; /* Add a minimum height */
+    min-height: 450px; /* Add a minimum height */
     margin-left: auto;
     margin-right: auto;
 }
